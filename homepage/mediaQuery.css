@@ -55,6 +55,58 @@
         top: 26%;
     }
 }
+@media only screen and (orientation:portrait) and (max-width:780px){
+    .login, .signup {
+        border: none;
+    }
+    .login i, .signup i{
+        display: none;
+    }
+    .div1 {
+        height: 115vh;
+    }
+    .leaf1 {
+        top: 30%;
+        height: 40%;
+    }
+    .leaf2 {
+        top: 46%;
+        height: 22%;
+    }
+    .opportunities {
+        height: 14vh;
+    }
+    .threeOptions {
+        display: flex;
+        flex-wrap: wrap;
+        height: 48vh;
+        width: 100%;
+        padding: 0px 10%;
+        justify-content: space-between;
+    }
+    .div2 {
+        height: 72vh;
+    }
+    .feature1 .button, .feature2 .button {
+        height: 12%;
+        width: 50%;
+    }
+    .div3 {
+        height: 65vh;
+    }
+    .div4 {
+        width: 100%;
+        height: 30vh;
+    }
+    .div4 .button {
+        height: 54px;
+    }
+    .option1, .option2, .option3 {
+        width: 32%;
+        height: 80%;
+        padding: 4%;
+    }
+}
 @media only screen and (orientation:portrait) and (max-width:420px){
     .navbar {
         height: 4%;
@@ -124,7 +176,7 @@
         width: 45%;
     }
     .div3 {
-        height: 95vh;
+        height: 100vh;
         padding-bottom: 0px;
     }
     .div4 .subheading {
@@ -193,7 +245,7 @@
     }
     
     .div1 {
-        height: 185vh;
+        height: 204vh;
     }
     .leaf1 {
         top: 25%;
@@ -228,21 +280,27 @@
     .div1 {
         height: 210vh;
     }
+    .leaf1{
+        display: none;
+    }
     .features {
         display: flex;
         justify-content: space-evenly;
-        height: 80%;
+        height: 87%;
     }
-    .div3 {
-        height: 125vh;
-        padding-bottom: 0px;
+    .feature1 .head, .feature2 .head {
+        font-family: 'Chivo', sans-serif;
+        font-size: 30px;
+        margin-top: 37px;
+        margin-bottom: 40px;
     }
+    
     .div4 {
         width: 100%;
         height: 28vh;
     }
     .div2 {
-        height: 160vh;
+        height: 155vh;
         padding: 35px 8%;
     }
     .option1, .option2, .option3 {
@@ -252,6 +310,18 @@
         min-width: 100%;
         box-shadow: 0px 10px 15px rgb(0 0 0 / 40%);
         margin-bottom: 15px;
+    }
+    .feature1, .feature2 {
+        position: relative;
+        height: 41%;
+        width: 45%;
+        padding: 3% 5%;
+        color: white;
+        min-width: 90%;
+    }
+    .div3 {
+        height: 113vh;
+        padding-bottom: 0px;
     }
 }
 @media only screen and (orientation:portrait) and (max-width:325px){
@@ -345,5 +415,351 @@
     .div4 .subheading {
         font-size: x-large;
         text-align: center;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .navbar {
+        height: 7%;
+    }
+    .div1 {
+        width: 100%;
+        height: 188vh;
+        position: relative;
+    }
+    .navpart3 {
+        height: 60%;
+        width: 22%;
+    }
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .navpart1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    .leaf2 {
+        position: absolute;
+        top: 47%;
+        left: 0px;
+        z-index: -3;
+    }
+    .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 65%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .div2 {
+        height: 72vh;
+        width: 100%;
+        padding: 0px 8%;
+    }
+    .div3 {
+        height: 67vh;
+    }
+    .div4 {
+        width: 100%;
+        height: 28vh;
+    }
+    .div4 .button {
+        height: 61px;
+        width: 153px;
+    }
+    .div1 {
+        width: 100%;
+        height: 140vh;
+        position: relative;
+    }
+    .content{
+        height: 57vh;
+    }
+    .opportunities {
+        height: 26vh;
+    }
+    .leaf1 {
+        position: absolute;
+        top: 22%;
+        left: 0px;
+        z-index: -2;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:1030px){
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: large;
+    }
+    .content {
+        height: 70vh;
+        padding-top: 14%;
+        padding-left: 12%;
+    }
+    .div1 {
+        width: 100%;
+        height: 150vh;
+        position: relative;
+    }
+    .threeOptions {
+        display: flex;
+        flex-wrap: wrap;
+        height: 45vh;
+        width: 100%;
+        padding: 0px 10%;
+        justify-content: space-between;
+    }
+    .option1, .option2, .option3 {
+        width: 29%;
+    }
+    .div2 {
+        height: 85vh;
+        width: 100%;
+        padding: 0px 8%;
+    }
+    .feature1 .button, .feature2 .button {
+        color: #66BB6A;
+        background-color: white;
+        height: 12%;
+        width: 43%;
+    }
+    .div3 {
+        height: 85vh;
+    }
+    .div4 {
+        width: 100%;
+        height: 32vh;
+    }
+    .opportunities {
+        height: 20vh;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .div1 {
+        width: 100%;
+        height: 310vh;
+        position: relative;
+    }
+    .navbar {
+        height: 9%;
+    }
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: medium;
+    }
+    .navpart3 {
+        height: 55%;
+        width: 25%;
+    }
+    .content {
+        height: 110vh;
+        padding-top: 16%;
+        padding-left: 12%;
+    }
+    .content-button {
+        height: 44px;
+        width: 120px;
+    }
+    .option1, .option2, .option3 {
+        width: 31%;
+    }
+    .threeOptions {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100%;
+        padding: 0px 10%;
+        justify-content: space-between;
+    }
+    .content h1 {
+        font-family: 'Chivo', sans-serif;
+        font-size: x-large;
+    }
+    .login, .signup {
+        height: 100%;
+        width: 45%;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: small;
+    }
+    .leaf1 {
+        position: absolute;
+        top: 17%;
+        left: 0px;
+        z-index: -2;
+        height: 40%;
+    }
+    .leaf2 {
+        position: absolute;
+        top: 38%;
+        left: 0px;
+        z-index: -3;
+        height: 18%;
+    }
+    .opportunities {
+        height: 60vh;
+    }
+    .div2 {
+        height: 185vh;
+        width: 100%;
+        padding: 0px 8%;
+    }
+    .feature1, .feature2 {
+        position: relative;
+        height: 90%;
+        width: 44%;
+        padding: 3% 5%;
+        color: white;
+    }
+    .div3 {
+        height: 160vh;
+    }
+    .extra .part1 {
+        font-family: 'Chivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        width: 27%;
+    }
+    .extra .part2 {
+        width: 50%;
+        font-family: 'Chivo';
+    }
+    .div4 {
+        width: 100%;
+        height: 59vh;
+    }
+    .div4 .subheading {
+        font-size: xx-large;
+        font-weight: 600;
+        font-family: 'Chivo', sans-serif;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .feature1 .button, .feature2 .button {
+        color: #66BB6A;
+        background-color: white;
+        height: 8%;
+        width: 52%;
+        font-size: small;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:670px){
+    .content {
+        height: 123vh;
+        padding-top: 16%;
+        padding-left: 12%;
+    }
+    .opportunities {
+        height: 33vh;
+    }
+    .option1, .option2, .option3 {
+        width: 32%;
+    }
+    .div1 {
+        width: 100%;
+        height: 290vh;
+        position: relative;
+    }
+    .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .feature1 .button, .feature2 .button {
+        color: #66BB6A;
+        background-color: white;
+        height: 10%;
+        width: 58%;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:570px){
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: small;
+    }
+    .content {
+        height: 135vh;
+        padding-top: 16%;
+        padding-left: 12%;
+    }
+    .content h1 {
+        font-family: 'Chivo', sans-serif;
+        font-size: large;
+    }
+    .texti {
+        max-width: 55%;
+        margin-top: 15px;
+        font-family: Chivo;
+        font-size: small;
+    }
+    .content-button {
+        height: 34px;
+        width: 98px;
+        font-size: small;
+    }
+    .opportunities {
+        height: 35vh;
+        font-size: large;
+    }
+    .texti2 {
+        margin-top: 19px;
+        text-align: center;
+        font-size: medium;
+        font-family: Chivo;
+        width: 80%;
+    }
+    .div1 {
+        width: 100%;
+        height: 305vh;
+        position: relative;
+    }
+    .div2 {
+        height: 200vh;
+        width: 100%;
+        padding: 0px 8%;
+    }
+    .feature1 .head, .feature2 .head {
+        font-family: 'Chivo', sans-serif;
+        font-size: 30px;
+        margin-top: 37px;
+        margin-bottom: 40px;
+    }
+    .feature1, .feature2 {
+        position: relative;
+        height: 90%;
+        width: 48%;
+        padding: 3% 5%;
+        color: white;
+    }
+    .div3 {
+        height: 210vh;
+    }
+    .extra .part2 {
+        width: 65%;
+        font-family: 'Chivo';
+        font-size: small;
+    }
+    .threeOptions {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100%;
+        padding: 0px 10%;
+        justify-content: space-between;
+    }
+    .content-options {
+        font-family: Chivo;
+        font-size: small;
     }
 }
