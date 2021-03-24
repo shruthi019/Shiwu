@@ -374,3 +374,106 @@ span {
   margin-top: 30px;
   color: white;
 }
+
+.popup{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+.wrapper{
+  background-color: white;
+  width: 30%;
+  height: 60%;
+  border-radius: 7px;
+}
+
+.wrapper .head{
+  height: 17%;
+  width: 100%;
+  display: flex;
+
+}
+.pop-signin, .pop-signup{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  
+}
+.pop-signin{
+  background-color: #d2d8d8;
+  border-radius: 7px 0px 0px 0px;
+}
+.pop-signup{
+  border-radius: 0px 7px 0px 0px;
+}
+.input{
+  padding: 4%;
+  height: 83%;
+  width: 100%;
+  
+  
+}
+.input-signup{
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.input-signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+input{
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  font-size: medium;
+}
+.submit,.createAccount{
+  width: 100%;
+  color: white;
+  background-color: #2f889A;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.remember{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: normal;
+  font-size: small;
+}
+#rememberMe {
+  height: 15px;
+  width: 30px;
+}
+.forgotPassword{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  width: 100%;
+}
+
+
+
+
+

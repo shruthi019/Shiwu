@@ -35,3 +35,4 @@ function change(i){
     }
     circle[i].style.borderWidth = "thick";
 }
+
