@@ -1,0 +1,86 @@
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .video {
+        height: 75vh;
+    }
+    .navpart3 {
+        height: 60%;
+        width: 19%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 90%;
+        height: 70vh;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .navbar {
+        height: 15vh;
+    }
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: small;
+    }
+    .navpart3 {
+        height: 60%;
+        width: 25%;
+        font-size: small;
+    }
+    .video {
+        height: 90vh;
+    }
+    .video .head {
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .video .content {
+        color: white;
+        font-size: medium;
+        width: 50%;
+    }
+    .div1 .heading, .div3 .heading, .div2 .heading, .div4 .heading {
+        font-size: large;
+    }
+    .div1 .content, .div3 .content, .div2 .content, .div4 .content {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 50px;
+        padding-left: 10%;
+        font-size: small;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 90%;
+        height: 80vh;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:570px){
+    .navbar {
+        height: 20vh;
+    }
+    .navpart3 {
+        height: 52%;
+        width: 30%;
+        font-size: small;
+    }
+    .video .head {
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .video .content {
+        color: white;
+        font-size: medium;
+        width: 80%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 94%;
+        height: 80vh;
+    }
+}
