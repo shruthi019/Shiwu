@@ -130,6 +130,7 @@ video{
     align-items: center;
     margin-right: 50px;
     padding-left: 10%;
+    word-break: break-word;
     
 }
 .div2 .content , .div4 .content{
