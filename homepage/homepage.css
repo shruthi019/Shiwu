@@ -161,6 +161,9 @@
 
   align-items: flex-start;
 }
+.option2{
+  color: white;
+}
 .option1 img,
 .option2 img,
 .option3 img {
@@ -260,7 +263,7 @@ hr {
 }
 
 .div3 {
-  height: 80vh;
+  height: 82vh;
   width: 100%;
   padding: 8%;
   padding-top: 0px;
@@ -313,6 +316,7 @@ hr {
   margin-bottom: 35px;
 }
 .circle {
+  cursor: pointer;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -324,9 +328,8 @@ hr {
 .extra {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 70%;
 }
 .extra .part1 {
   font-family: "Chivo", sans-serif;

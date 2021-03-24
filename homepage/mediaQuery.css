@@ -5,6 +5,15 @@
     .navbar {
         height: 7%;
     }
+    .div3 {
+        height: 66vh;
+        width: 100%;
+        padding: 8%;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .div1 {
         width: 100%;
         height: 188vh;
@@ -43,9 +52,7 @@
         width: 100%;
         padding: 0px 8%;
     }
-    .div3 {
-        height: 67vh;
-    }
+    
     .div4 {
         width: 100%;
         height: 28vh;
@@ -77,6 +84,7 @@
         font-weight: bold;
         font-size: large;
     }
+    
     .content {
         height: 70vh;
         padding-top: 14%;
@@ -196,10 +204,13 @@
     }
     .feature1, .feature2 {
         position: relative;
-        height: 90%;
-        width: 44%;
+        height: 78%;
+        width: 48%;
         padding: 3% 5%;
         color: white;
+    }
+    .extra{
+        width: 100%;
     }
     .div3 {
         height: 160vh;
@@ -229,7 +240,7 @@
         color: #66BB6A;
         background-color: white;
         height: 8%;
-        width: 52%;
+        width: 42%;
         font-size: small;
     }
 }
@@ -310,7 +321,7 @@
     .div2 {
         height: 200vh;
         width: 100%;
-        padding: 0px 8%;
+        padding: 0px 3%;
     }
     .feature1 .head, .feature2 .head {
         font-family: 'Chivo', sans-serif;
@@ -320,10 +331,16 @@
     }
     .feature1, .feature2 {
         position: relative;
-        height: 90%;
+        height: 80%;
         width: 48%;
         padding: 3% 5%;
         color: white;
+    }
+    .feature1 .head, .feature2 .head {
+        font-family: 'Chivo', sans-serif;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 29px;
     }
     .div3 {
         height: 210vh;
@@ -410,6 +427,24 @@
     .login i, .signup i{
         display: none;
     }
+    .common {
+        display: flex;
+        height: 75vh;
+    }
+    .chart {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        max-width: fit-content;
+        margin: 0px;
+    }
+   .div3 hr {
+        width: 95%;
+        color: white;
+        background-color: white;
+        height: 3px;
+        transform: rotate(90deg);
+    }
     .div1 {
         height: 115vh;
     }
@@ -481,8 +516,8 @@
         height: 60%;
         width: 30%;
     }
-    .farmer{
-        width: 72%;
+    .farmer {
+        width: 65%;
     }
     .content h1 {
         font-family: 'Chivo', sans-serif;
@@ -524,7 +559,7 @@
         width: 45%;
     }
     .div3 {
-        height: 95vh;
+        height: 113vh;
         padding-bottom: 0px;
     }
     .div4 .subheading {
@@ -541,11 +576,12 @@
     }
     .working-content {
         width: 95%;
+        font-size: small;
     }
     .extra {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         width: 100%;
     }
@@ -562,10 +598,11 @@
     .extra .part2 {
         width: 90%;
         font-family: 'Chivo';
-        text-align: center;
+        text-align: left;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: small;
     }
     .div2 .heading{
         text-align: center;
@@ -580,8 +617,8 @@
     }
     .feature1, .feature2 {
         position: relative;
-        height: 48%;
-        width: 45%;
+        height: 40%;
+        width: 46%;
         padding: 3% 5%;
         color: white;
         min-width: 90%;
@@ -593,11 +630,15 @@
     }
     
     .div1 {
-        height: 185vh;
+        height: 206vh;
     }
     .leaf1 {
-        top: 25%;
+        top: 21%;
         height: 30%;
+    }
+    .common {
+        display: flex;
+        height: 55vh;
     }
     .leaf2 {
         display: none;
@@ -610,6 +651,16 @@
         text-align: center;
         width: 75%;
         font-family: Chivo;
+        font-size: small;
+    }
+    .content-options {
+        font-family: Chivo;
+        font-size: small;
+    }
+    .heading .texti3 {
+        font-family: 'Chivo';
+        max-width: 86%;
+        font-size: small;
     }
     .opportunities {
         height: 25vh;
@@ -635,8 +686,12 @@
         height: 80%;
     }
     .div3 {
-        height: 125vh;
+        height: 105vh;
         padding-bottom: 0px;
+    }
+    .common {
+        display: flex;
+        height: 48vh;
     }
     .div4 {
         width: 100%;
@@ -656,6 +711,26 @@
     }
 }
 @media only screen and (orientation:portrait) and (max-width:325px){
+    .texti2 {
+        margin-top: 25px;
+        text-align: center;
+        width: 75%;
+        font-family: Chivo;
+        font-size: small;
+    }
+    .content-options {
+        font-family: Chivo;
+        font-size: small;
+    }
+    .heading .texti3 {
+        font-family: 'Chivo';
+        max-width: 86%;
+        font-size: small;
+    }
+    .common {
+        display: flex;
+        height: 64vh;
+    }
     .div1 {
         height: 260vh;
     }
@@ -717,13 +792,14 @@
         text-align: center;
     }
     .extra .part2 {
-        width: 96%;
+        width: 90%;
         font-family: 'Chivo';
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        word-break: break-word;
+        text-align: left;
+        margin-left: 20px;
     }
     .feature-content {
         max-width: 80%;
@@ -736,8 +812,9 @@
         width: 51%;
     }
     .div3 {
-        height: 140vh;
+        height: 160vh;
         padding-bottom: 0px;
+        padding: 0px 2%;
     }
     .div4 {
         width: 100%;
