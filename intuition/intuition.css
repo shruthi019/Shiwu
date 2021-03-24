@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chivo';
+    box-sizing: border-box;
+}
+.home:hover,
+.team:hover,
+.intuition:hover {
+  color: #66bb6a;
+  cursor: pointer;
+}
+.home,
+.team,
+.intuition {
+  font-weight: bold;
+  font-size: large;
+}
+.login,
+.signup {
+  height: 100%;
+  width: 45%;
+  border: 1px solid #66bb6a;
+  color: #66bb6a;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login:hover,
+.signup:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .navpart2 {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navpart3 {
+    height: 60%;
+    width: 15%;
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.video{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    padding: 0px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #66bb6a94;
+}
+video{
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.video .head{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.video .content{
+    color: white;
+    font-size: large;
+    width: 40%;
+}
+.div1, .div3,.div2,.div4{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    border: 2px solid #66bb6a;
+    box-shadow: 10px 0px 15px 3px #c7e7c9 ;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.div1 .heading , .div3 .heading,.div2 .heading,.div4 .heading{
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.div1 .wrapper, .div3 .wrapper ,.div2 .wrapper, .div4 .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+    
+
+}
+.div2 .wrapper, .div4 .wrapper{
+    flex-direction: row-reverse;
+}
+
+.div1 .content , .div3 .content, .div2 .content , .div4 .content{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+    padding-left: 10%;
+    
+}
+.div2 .content , .div4 .content{
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.div1 img , .div3 img , .div2 img,.div4 img{
+    max-width: 40%;
+    height: 100%;
+}
