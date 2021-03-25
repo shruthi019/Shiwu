@@ -40,8 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-
+    
 }
 .texti h3{
     color: #66bb6a;
@@ -69,6 +68,7 @@
   background-color: #66bb6a;
   box-shadow: 5px 10px 20px #66bb6a79;
   color: white;
+  cursor: pointer;
 }
 .home{
     height: 7%;
@@ -78,4 +78,5 @@
 }
 .returnToHome{
     color: #66bb6a;
+    cursor: pointer;
 }
