@@ -52,7 +52,6 @@
 .home:hover,
 .team:hover,
 .intuition:hover {
-  color: #66bb6a;
   cursor: pointer;
 }
 .home,
