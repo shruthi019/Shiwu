@@ -1,0 +1,74 @@
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .image {
+        width: 45%;
+        height: 75%;
+        
+    }
+
+}
+@media only screen and (orientation:landscape) and (max-width:1025px){
+    .texti {
+        height: 100%;
+        width: 50%;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .texti h1 {
+        color: #66bb6a;
+        font-size: large;
+    }
+    .text{
+        font-size: small;
+    }
+    .nav-icon img{
+        height: 20px;
+    }
+    .upload .button {
+        height: 30px;
+        width: 110px;
+    }
+    .texti {
+        height: 100%;
+        width: 100%;
+    }
+    .upload {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+    }
+    .returnToHome {
+        color: #66bb6a;
+        font-size: 12px;
+    }
+    .home {
+        height: 11%;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:670px){
+    .text {
+        font-size: x-small;
+    }
+    .texti {
+        height: 100%;
+        width: 67%;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:570px){
+    .texti h1 {
+        color: #66bb6a;
+        font-size: small;
+    }
+    .text {
+        font-size: xx-small;
+    }
+    .texti {
+        height: 100%;
+        width: 75%;
+    }
+    .home {
+        height: 14%;
+    }
+}
