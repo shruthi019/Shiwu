@@ -115,6 +115,10 @@
         width: 93%;
         padding: 2%;
     }
+    .upload .button {
+        height: 32px;
+        width: 124px;
+    }
     .nav-icon {
         height: 6%;
     }
