@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Chivo';
+}
+.home:hover,
+.team:hover,
+.intuition:hover {
+  cursor: pointer;
+}
+.home,
+.team,
+.intuition {
+  font-weight: bold;
+  font-size: large;
+}
+.team{
+  color: #66bb6a;
+}
+.login,
+.signup {
+  height: 100%;
+  width: 45%;
+  border: 1px solid #66bb6a;
+  color: #66bb6a;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login:hover,
+.signup:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.493);
+  }
+  
+  .navpart2 {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navpart3 {
+    height: 60%;
+    width: 15%;
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    padding: 3%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+/* .card1 , .card2 ,.card3 , .card4{
+    width: 20%;
+    border: 1px solid black;
+    height: 100%;
+} */
+
+.card1, .card2, .card3,.card4 {
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #66bb6a;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    min-width: 300px;
+    margin: 25px;
+}
+
+.card1 .image {
+    height: 100px;
+    width: 100px;
+    background-image: url('/images/IMG20200131162157.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+.card2 .image{
+    height: 100px;
+    width: 100px;
+    background-image: url('/images/shruthi.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+.card3 .image{
+    height: 100px;
+    width: 100px;
+    background-image: url('/images/pooja.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+.card4 .image{
+    height: 100px;
+    width: 100px;
+    background-image: url('/images/Shrankhla.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66bb6a;
+    font-size: xxx-large;
+}
+
+.shape {
+    height: 250px;
+    width: 400px;
+    background-color: #66bb6a;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #66bb6a;
+    transform: rotate(25deg);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: rgb(105, 100, 109);
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(105, 100, 109);
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    color: rgb(40, 163, 194);
+    ;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    color: rgb(18, 192, 235);
+}
+body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #242424; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }.count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
+
+html body [data-ca3_iconfont="ETmodules"]::before {
+    font-family: "ETmodules";
+}
+[data-ca3_icon]::before {
+    font-weight: normal;
+    content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.ca3-scroll-down-arrow  i{
+	color: #feab00 ;
+	height: 10px;
+	/* font-weight: 800; */
+
+
+}
+.ca3-scroll-down-link {
+  cursor:pointer;
+	height: 30px;
+	width: 60px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 80px;
+	color: #fe5d00;
+	text-align: center;
+	font-size: 70px;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(228, 15, 15, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
