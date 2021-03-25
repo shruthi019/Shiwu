@@ -142,7 +142,13 @@
     }
     .navpart2 {
         height: 60%;
-        width: 40%;
+        width: 50%;
+    }
+    .navbar {
+        height: 7vh;
+    }
+    .navpart1 img{
+        height: 30px;
     }
     .video {
         height: 26vh;
@@ -236,5 +242,8 @@
     .div1, .div3, .div2, .div4 {
         width: 72%;
         height: 53vh;
+    }
+    .navpart1 img {
+        height: 20px;
     }
 }
