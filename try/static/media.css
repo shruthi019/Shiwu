@@ -1,0 +1,249 @@
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .video {
+        height: 75vh;
+    }
+    .navpart3 {
+        height: 60%;
+        width: 19%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 90%;
+        height: 70vh;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .navbar {
+        height: 15vh;
+    }
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: small;
+    }
+    .navpart3 {
+        height: 60%;
+        width: 25%;
+        font-size: small;
+    }
+    .video {
+        height: 90vh;
+    }
+    .video .head {
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .video .content {
+        color: white;
+        font-size: medium;
+        width: 50%;
+    }
+    .div1 .heading, .div3 .heading, .div2 .heading, .div4 .heading {
+        font-size: large;
+    }
+    .div1 .content, .div3 .content, .div2 .content, .div4 .content {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 50px;
+        padding-left: 10%;
+        font-size: small;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 90%;
+        height: 80vh;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:570px){
+    .navbar {
+        height: 20vh;
+    }
+    .navpart3 {
+        height: 52%;
+        width: 30%;
+        font-size: small;
+    }
+    .video .head {
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .video .content {
+        color: white;
+        font-size: medium;
+        width: 80%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 94%;
+        height: 80vh;
+    }
+}
+
+@media only screen and (orientation:portrait) and (max-width:1030px){
+    .navpart3 {
+        height: 48%;
+        width: 25%;
+    }
+    .video {
+        height: 42vh;
+    }
+    .video .head {
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .video .content {
+        color: white;
+        font-size: large;
+        width: 50%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 90%;
+        height: 40vh;
+    }
+    .div2 .content, .div4 .content {
+        margin-right: 40px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:770px){
+    .div1 .heading, .div3 .heading, .div2 .heading, .div4 .heading {
+        font-size: x-large;
+    }
+    .navpart3 {
+        height: 48%;
+        width: 28%;
+    }
+    .video .content {
+        color: white;
+        font-size: large;
+        width: 61%;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:420px){
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: small;
+    }
+    .login i,.signup i{
+        display: none;
+    }
+    .login , .signup{
+        border: none;
+        font-size: small;
+    }
+    .navpart2 {
+        height: 60%;
+        width: 50%;
+    }
+    .navbar {
+        height: 7vh;
+    }
+    .navpart1 img{
+        height: 30px;
+    }
+    .video {
+        height: 26vh;
+    }
+    .video .content {
+        color: white;
+        font-size: small;
+        width: 90%;
+    }
+    .video .head {
+        color: white;
+        font-size: large;
+        width: 61%;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 72%;
+        height: 45vh;
+    }
+    .div1 .wrapper, .div3 .wrapper, .div2 .wrapper, .div4 .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .div1 .content, .div3 .content, .div2 .content, .div4 .content {
+        height: 100%;
+        width: 93%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 50px;
+        padding-left: 10%;
+        text-align: center;
+        font-size: small;
+    }
+    .div1 .heading, .div3 .heading, .div2 .heading, .div4 .heading {
+        font-size: large;
+        text-align: center;
+    }
+    .div1 img, .div3 img, .div2 img, .div4 img {
+        max-width: 40%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:325px){
+    .home, .team, .intuition {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .login, .signup {
+        border: none;
+        font-size: 10px;
+    }
+    .video {
+        height: 31vh;
+    }
+    .video .head {
+        color: white;
+        font-size: small;
+        width: 65%;
+    }
+    .video .content {
+        color: white;
+        font-size: 11px;
+        width: 90%;
+    }
+    .div1 .heading, .div3 .heading, .div2 .heading, .div4 .heading {
+        font-size: small;
+        text-align: center;
+    }
+    .div1 .content, .div3 .content, .div2 .content, .div4 .content {
+        height: 60%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin:0px;
+        padding-left: 0%;
+        text-align: center;
+        font-size: 11px;
+        word-break: break-word;
+    }
+    .div1 img, .div3 img, .div2 img, .div4 img {
+        max-width: 100%;
+        max-height: 40%;
+        margin-bottom: 20px;
+    }
+    .div1, .div3, .div2, .div4 {
+        width: 72%;
+        height: 53vh;
+    }
+    .navpart1 img {
+        height: 20px;
+    }
+}
