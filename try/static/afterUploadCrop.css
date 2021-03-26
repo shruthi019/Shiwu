@@ -33,17 +33,18 @@
     justify-content: space-evenly;
     align-items: flex-start;
 }
-.texti h1{
-    color: #66bb6a;
-    font-size: xx-large;
-}
+
 .image{
-    width: 45%;
-    height: 100%;
+    width: 35%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.texti h3{
+    color: #66bb6a;
+    font-size: x-large;
 }
 .image img{
     height: 100%;
@@ -58,7 +59,7 @@
 }
 .upload .button{
     height: 50px;
-  width: 150px;
+  width: 250px;
   font-size: 15px;
   border-radius: 8px;
   display: flex;

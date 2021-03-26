@@ -1,14 +1,4 @@
 
-# A very simple Flask Hello World app for you to get started with...
-
-# from flask import Flask
-
-# app = Flask(__name__)
-
-# @app.route('/')
-# def hello_world():
-#     return 'Hello from Flask!'
-
 #from flask_ngrok import run_with_ngrok
 from flask import Flask, render_template
 #from tensorflow.keras.models import load_model
@@ -31,11 +21,19 @@ def intuition():
 def team():
     return render_template("team.html")
 
-@app.route("/upload")
-def upload():
-    return render_template("upload.html")
+@app.route("/uploadCrop")
+def uploadCrop():
+    return render_template("uploadCrop.html")
+
+@app.route("/uploadSoil")
+def uploadSoil():
+    return render_template("uploadSoil.html")
 
 @app.route("/crop")
 def crop_suggestion():
-    return render_template("afterUpload.html")
+    return render_template("afterUploadCrop.html")
+
+@app.route("/soil")
+def soil_suggestion():
+    return render_template("afterUploadSoil.html")
 #app.run()

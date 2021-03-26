@@ -48,7 +48,7 @@
     background-color: white;
     border-bottom: 2px solid rgba(128, 128, 128, 0.493);
   }
-
+  
   .navpart2 {
     height: 60%;
     width: 30%;
@@ -60,7 +60,7 @@
     height: 60%;
     width: 15%;
     display: flex;
-
+  
     justify-content: space-between;
     align-items: center;
   }
@@ -98,7 +98,7 @@
 .card1 .image {
     height: 100px;
     width: 100px;
-    background-image: url('/static/images/IMG20200131162157.jpg');
+    background-image: url('/images/IMG20200131162157.jpg');
     background-size: cover;
     border-radius: 50%;
     border: 8px solid white;
@@ -111,7 +111,7 @@
 .card2 .image{
     height: 100px;
     width: 100px;
-    background-image: url('/static/images/shruthi.jpeg');
+    background-image: url('/images/shruthi.jpeg');
     background-size: cover;
     border-radius: 50%;
     border: 8px solid white;
@@ -124,7 +124,7 @@
 .card3 .image{
     height: 100px;
     width: 100px;
-    background-image: url('/static/images/pooja.jpeg');
+    background-image: url('/images/pooja.jpeg');
     background-size: cover;
     border-radius: 50%;
     border: 8px solid white;
@@ -137,7 +137,7 @@
 .card4 .image{
     height: 100px;
     width: 100px;
-    background-image: url('/static/images/Shrankhla.jpeg');
+    background-image: url('/images/Shrankhla.jpeg');
     background-size: cover;
     border-radius: 50%;
     border: 8px solid white;
