@@ -69,6 +69,7 @@
   color: white;
   cursor: pointer;
   margin: 0px 15px;
+  border: none;
 }
 .upload .predict{
     display: none;
