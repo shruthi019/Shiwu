@@ -56,7 +56,7 @@
     align-items: center;
     margin-top: 3%;
 }
-.upload .button, .upload .predict{
+.upload .button , .upload .predict{
     height: 50px;
   width: 150px;
   font-size: 15px;
@@ -69,6 +69,7 @@
   color: white;
   cursor: pointer;
   margin: 0px 15px;
+  border: none;
 }
 .upload .predict{
     display: none;

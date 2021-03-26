@@ -68,6 +68,8 @@
   box-shadow: 5px 10px 20px #66bb6a79;
   color: white;
   cursor: pointer;
+  margin: 0px 15px;
+  border: none;
 }
 .upload .predict{
     display: none;

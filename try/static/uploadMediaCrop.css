@@ -2,7 +2,7 @@
     .image {
         width: 45%;
         height: 75%;
-        
+
     }
 
 }
@@ -16,6 +16,11 @@
     .texti h1 {
         color: #66bb6a;
         font-size: large;
+    }
+    .upload .button, .upload .predict {
+        height: 30px;
+        width: 90px;
+        font-size: 12px;
     }
     .text{
         font-size: small;
