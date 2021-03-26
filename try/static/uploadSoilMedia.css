@@ -2,7 +2,7 @@
     .image {
         width: 45%;
         height: 75%;
-        
+
     }
 
 }
@@ -22,6 +22,11 @@
     }
     .nav-icon img{
         height: 20px;
+    }
+    .upload .button, .upload .predict {
+        height: 30px;
+        width: 90px;
+        font-size: 12px;
     }
     .upload .button , .upload .predict {
         height: 30px;
