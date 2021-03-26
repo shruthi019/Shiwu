@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='upload.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='uploadMedia.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='uploadSoil.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='uploadSoilMedia.css') }}">
     <link
       href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap"
       rel="stylesheet"
@@ -30,7 +30,7 @@
             <form action="/classify" method="post" enctype="multipart/form-data" onsubmit="showloading()">
                 <label for="uploadImage" class="button">Upload</label>
                 <input type="file" name="image" id="uploadImage" style="display: none;" >
-                <input type="submit" value="Predict">
+                <input type="submit" value="Predict" class="predict">
 
             </form>
             <!-- <label for="uploadImage" class="button">Upload</label>
@@ -40,6 +40,6 @@
             <div class="returnToHome">Return To Home</div>
         </div>
     </div>
-    
+    <script src="{{ url_for('static', filename='soilUpload.js') }}"></script>
 </body>
 </html>
