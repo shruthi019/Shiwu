@@ -9,6 +9,9 @@
 .intuition:hover {
   cursor: pointer;
 }
+.navbar a{
+  color: black;
+}
 .home,
 .team,
 .intuition {
