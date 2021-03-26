@@ -20,6 +20,10 @@
   top: 0px;
   z-index: 5;
 }
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
 
 .navpart2 {
   height: 60%;
