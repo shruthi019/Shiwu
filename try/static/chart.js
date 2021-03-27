@@ -12,20 +12,11 @@ let part2 = document.querySelector(".part2");
 // let signup = document.querySelector(".signup");
 // let cross = document.querySelector(".cross");
 
-let arrPart1 = ["Lorem ipsum dolor sit.","Lorem ipsum","agyvgfueguehgoiehg","guegfueguegfguqgfu"];
-let arrPart2 = [`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-neque eius sed, dolor quo accusamus, ea illo iure quis iste ipsum
-accusantium id consequatur nam voluptas architecto. Fuga, aliquam.
-At.`, `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-neque eius sed, dolor quo accusamus, ea illo iure quis iste ipsum
-accusantium id consequatur nam voluptas architecto. Fuga, aliquam.
-At Nishtha`,`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-neque eius sed, dolor quo accusamus, ea illo iure quis iste ipsum
-accusantium id consequatur nam voluptas architecto. Fuga, aliquam.
-At. Archit`,`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-neque eius sed, dolor quo accusamus, ea illo iure quis iste ipsum
-accusantium id consequatur nam voluptas architecto. Fuga, aliquam.
-At.Harshit`];
+let arrPart1 = ["Step:","Step:","Step:","Step:"];
+let arrPart2 = [`Our first layer is sequential as there's only a single input. Since it is a picture we need to flatten the RGB content.`,
+ `We have then used batch normalisation layer to normalise the mean output and standard deviation.`,
+`Then we have densely connected 4 layers. Again, to normalise the output we have used batch normalisation and we have used the activation function 'softmax'.`,
+`We have compiled the whole model using optimiser 'Adam' , handled losses using 'categoricalCrossentropy' and using metrics 'accuracy'. We have set up 50 epochs for better accuracy.`];
 
 for(let i=0;i<4;i++){
     circle[i].addEventListener("click",function(){
