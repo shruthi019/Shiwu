@@ -38,12 +38,12 @@
     font-size: xx-large;
 }
 .image{
-    width: 45%;
-    height: 100%;
+    width: 35%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .image img{
     height: 100%;
@@ -74,6 +74,11 @@
 .upload .predict{
     display: none;
 }
+
+.upload form{
+    display: flex;
+}
+
 .home{
     height: 7%;
     display: flex;
@@ -83,4 +88,8 @@
 .returnToHome{
     color: #66bb6a;
     cursor: pointer;
+}
+.returnToHome a{
+    color: #66bb6a;
+    text-decoration: none;
 }

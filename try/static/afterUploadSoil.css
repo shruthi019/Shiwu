@@ -80,3 +80,11 @@
     color: #66bb6a;
     cursor: pointer;
 }
+.upload .button a{
+    color:white;
+    text-decoration:none;
+}
+.returnToHome a{
+    color: #66bb6a;
+    text-decoration: none;
+}
