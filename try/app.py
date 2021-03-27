@@ -34,13 +34,13 @@ def predictSoil():
         result = predict_model(uploadedImg_path, SoilNet)
         
         if (result == 0):
-            return render_template("alluvialSoil.html")
+            return render_template("afterUploadSoil.html", soil_type='Alluvial', user_image_path=uploadedImg_path)
         elif (result == 1):
-            return render_template("blackSoil.html")
+            return render_template("afterUploadSoil.html", soil_type='Black', user_image_path=uploadedImg_path)
         elif result == 2:
-            return render_template("claySoil.html")
+            return render_template("afterUploadSoil.html", soil_type='Clay', user_image_path=uploadedImg_path)
         elif result == 3:
-            return render_template("redSoil.html")
+            return render_template("afterUploadSoil.html", soil_type='Red', user_image_path=uploadedImg_path)
         return "An error occurred"
     return render_template("uploadSoil.html")
 
